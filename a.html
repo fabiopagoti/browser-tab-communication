@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>A</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./a.js'></script>
+</head>
+<body>
+    <div>
+        <label>Current window name</label>
+        <input id="tab_name" value="app" onchange="setWindowName" />
+    </div>
+    <div>
+            <button onclick="openExternalApp()">Go To External App</button>
+    </div>
+    <div>
+        <label>Returned Data</label>
+        <label id="parameter"></label>
+    </div>
+
+</body>
+</html>
